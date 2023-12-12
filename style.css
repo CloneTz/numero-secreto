@@ -20,23 +20,38 @@ body {
 }
 
 h1 {
-    font-size: 5em;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 4em;
 }
 
 h3 {
-    font-size: 3em;
-    margin-top: 20px;
+  font-size: 3em;
+  margin-top: 20px;
 }
 
 .mensagem {
-    font-size: 1.8em;
-    margin-top: 40px;
+  font-size: 1.8em;
+  margin-top: 40px;
 }
 
 .box {
-    border: 2px solid var(--primary-color);
-    display: inline-block;
-    font-size: 4em;
-    padding: 10px;
-    margin: 20px;
+  border: 2px solid var(--primary-color);
+  display: inline-block;
+  font-size: 4em;
+  padding: 10px;
+  margin: 20px;
+}
+
+.btn-jogar {
+  font-family: var(--font-family);
+  font-weight: 900;
+  padding: 25px 30px;
+  border: 0;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
 }
